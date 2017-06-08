@@ -1,0 +1,134 @@
+/* custom CSS */
+.bg{
+	background-image: url("../img/m3.jpg");
+    height:700px;
+	
+}
+.li{
+	background-image: url("../img/c1.jpg");
+	height: 700px;
+	background-color:#404040;
+	}
+.ti{
+	background-image: url("../img/b7.jpg");
+	height: 700px;
+	
+	}
+.ul{
+	color:red;
+	}
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form
+{
+	background-color:#404040;
+	border: none;
+	
+}
+.container-fluid
+{
+	background-color: #404040;
+	border: none;
+}
+body{
+	padding-top: 60px;
+}
+.navbar-default .navbar-nav>li>a
+{
+	color:#ff3399;
+}
+.navbar-default .navbar-nav>li>a:hover
+{
+	color: white;
+}
+footer {
+  width: 100%;
+  height: auto;
+  min-width: 960px; }
+  @media only screen and (max-width: 960px) {
+    footer {
+      min-width: 720px; } }
+
+#innerContent .left table {
+  width: 100% !important; }
+
+#footerTop-container {
+  background: #3d3d3d; }
+  #footerTop-container #footerTop {
+    width: 960px;
+    margin: 0 auto;
+    padding: 50px 0 10px; }
+    @media only screen and (max-width: 960px) {
+      #footerTop-container #footerTop {
+        width: 480px;
+        padding: 30px 0; } }
+    #footerTop-container #footerTop div {
+      float: left;
+      margin-right: 20px;
+      width: 220px; }
+      #footerTop-container #footerTop div.last {
+        margin-right: 0; }
+        #footerTop-container #footerTop div.last .button {
+          margin-left: 0; }
+      #footerTop-container #footerTop div h3 {
+        margin-bottom: 20px;
+        font-size: 16px;
+        color: #FFF; }
+      #footerTop-container #footerTop div ul {
+        margin-bottom: 40px; }
+      #footerTop-container #footerTop div ul li a {
+        font-family: "open-sans", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        color: #aaa;
+        font-weight: 600;
+        line-height: 24px; }
+        #footerTop-container #footerTop div ul li a:hover {
+          color: #FFF;
+          text-decoration: underline; }
+      #footerTop-container #footerTop div .social li {
+        float: left; }
+      #footerTop-container #footerTop div .social li a {
+        display: block;
+        width: 30px;
+        height: 30px;
+        text-indent: -999em; }
+        #footerTop-container #footerTop div .social li a.fbk {
+          background: transparent url('http://www.cartoon-media.eu/files/templates/cartoon/public/assets/img/social/fbk.png') no-repeat -10px bottom; }
+        #footerTop-container #footerTop div .social li a.twt {
+          background: transparent url('http://www.cartoon-media.eu/files/templates/cartoon/public/assets/img/social/twt.png') no-repeat -10px bottom; }
+        #footerTop-container #footerTop div .social li a.vmo {
+          background: transparent url('http://www.cartoon-media.eu/files/templates/cartoon/public/assets/img/social/vmo.png') no-repeat -10px bottom; }
+        #footerTop-container #footerTop div .social li a.msg {
+          background: transparent url('http://www.cartoon-media.eu/files/templates/cartoon/public/assets/img/social/msg.png') no-repeat -10px bottom; }
+      #footerTop-container #footerTop div a.button {
+        margin-top: 20px; }
+
+#footerBottom-container {
+  background: #303030; }
+  #footerBottom-container #footerBottom {
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px 0; }
+    @media only screen and (max-width: 960px) {
+      #footerBottom-container #footerBottom {
+        width: auto;
+        padding: 30px 20px; } }
+    #footerBottom-container #footerBottom p {
+      font-family: "open-sans", Helvetica, Arial, sans-serif;
+      font-size: 11px;
+      color: #b5b5b5;
+      font-weight: 400; }
+      #footerBottom-container #footerBottom p a {
+        color: #b5b5b5; }
+        #footerBottom-container #footerBottom p a:hover {
+          color: #ec1f5e;
+          text-decoration: none; }
+        #footerBottom-container #footerBottom p a.dog {
+          float: right;
+          display: block;
+          width: 24px;
+          height: 25px;
+          margin-top: -5px;
+          background: transparent url('http://www.cartoon-media.eu/files/templates/cartoon/public/assets/img/misc/dogstudio.png') no-repeat left top;
+          text-indent: -999em; }
+

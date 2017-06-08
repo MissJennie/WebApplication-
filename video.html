@@ -1,0 +1,488 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My cartoon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<style>
+		body{
+			background-image: url("img/.jpg");
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+	<!-- row 1: navigation -->
+    <div class="row">
+    	
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="glyphicon glyphicon-arrow-down"></span>
+			  </button>
+			 
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about-us.html">About</a></li>
+					<li><a href="movies.html">Movies</a></li>
+					<li><a href="contact-us.html">Contact</a></li> 
+					<li class="active"><a href="video.html">Video</a></li>
+				</ul>
+					<form class="navbar-form navbar-right" role="search">
+						<div class="form-group">
+						  <input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Search</button>
+					</form>
+			 
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+	</div>
+	<!--row-->
+	<!--row 2-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <p><iframe width="1200" height="700" src="https://www.youtube.com/embed/Y7uGHY-t80I" frameborder="0" allowfullscreen></iframe></p>
+      <div class="carousel-caption">
+        <h3>Chania</h3>
+        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <p><iframe width="1200" height="700" src="https://www.youtube.com/embed/bFi57DWkLp4" frameborder="0" allowfullscreen></iframe></p>
+      <div class="carousel-caption">
+        <h3>Chania</h3>
+        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+      </div>
+    </div>
+
+    <div class="item">
+   <p><iframe width="1200" height="700" src="https://www.youtube.com/embed/AMjMFbhyhwY" frameborder="0" allowfullscreen></iframe></p>
+      <div class="carousel-caption">
+        <h3>Flowers</h3>
+        <p>Beatiful flowers in Kolymbari, Crete.</p>
+      </div>
+    </div>
+
+    <div class="item">
+     <p><iframe width="1200" height="700" src="https://www.youtube.com/embed/d2S8D_SCAJY" frameborder="0" allowfullscreen></iframe></p>
+      <div class="carousel-caption">
+        <h3>Flowers</h3>
+        <p>Beatiful flowers in Kolymbari, Crete.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+   
+		<!--row0-->
+		<div class="col-md-12 col-xs-24">
+			<h4 style="font-family:arial;font-size:36px;color:#ff33ff"><strong>All Video</strong></h4>
+			</div>
+		<!--row1-->
+		<div class="row">
+    	 <div class="col-md-3 col-xs-6">
+		  <div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/c38r-SAnTWM" frameborder="0" allowfullscreen></iframe></p>
+            <h4>Zootopia</h4>
+            <p class="glyphicon glyphicon-eye-open">12,333</p>
+		</div>
+		</div>
+           
+        <div class="col-md-3 col-xs-6">
+		<div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/HNYbLO5HmJY" frameborder="0" allowfullscreen></iframe></p>
+            <h4>Brave</h4>
+            <p class="glyphicon glyphicon-eye-open">4,455</p>
+		</div>
+		</div>
+        <div class="col-md-3 col-xs-6">
+		<div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/KZiYYflms-w" frameborder="0" allowfullscreen></iframe></p>
+            <h4>Alice In Wonderland</h4>
+            <p class="glyphicon glyphicon-eye-open">345</p>
+		</div>
+		</div>
+         <div class="col-md-3 col-xs-6">
+		 <div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/3m1vK-7UKkw" frameborder="0" allowfullscreen></iframe></p>
+            <h4>Cinderella</h4>
+            <p class="glyphicon glyphicon-eye-open">456</p>
+		</div>
+		</div>	  
+    </div>
+	<!--row2-->
+	<div class="row">
+    	 <div class="col-md-3 col-xs-6">
+		  <div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/KRHIqJ67A_0" frameborder="0" allowfullscreen></iframe></p>
+            <h4>Frozen</h4>
+            <p class="glyphicon glyphicon-eye-open">12,333</p>
+		</div>
+		</div>
+           
+        <div class="col-md-3 col-xs-6">
+		<div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/zWo0gAA9QgM" frameborder="0" allowfullscreen></iframe></p>
+            <h4>tangle</h4>
+            <p class="glyphicon glyphicon-eye-open">4,455</p>
+		</div>
+		</div>
+        <div class="col-md-3 col-xs-6">
+		<div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/cDCfXqXW5gU" frameborder="0" allowfullscreen></iframe></p>
+            <h4>The good dinosaur</h4>
+            <p class="glyphicon glyphicon-eye-open">345</p>
+		</div>
+		</div>
+         <div class="col-md-3 col-xs-6">
+		 <div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/c38r-SAnTWM" frameborder="0" allowfullscreen></iframe></p>
+            <h4>Zootopia</h4>
+            <p class="glyphicon glyphicon-eye-open">456</p>
+		</div>
+		</div>	  
+    </div>
+	<!--row3-->
+	<div class="row">
+    	 <div class="col-md-3 col-xs-6">
+		  <div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/c38r-SAnTWM" frameborder="0" allowfullscreen></iframe></p>
+            <h4>Zootopia</h4>
+            <p class="glyphicon glyphicon-eye-open">12,333</p>
+		</div>
+		</div>
+           
+        <div class="col-md-3 col-xs-6">
+		<div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/c38r-SAnTWM" frameborder="0" allowfullscreen></iframe></p>
+            <h4>tangle</h4>
+            <p class="glyphicon glyphicon-eye-open">4,455</p>
+		</div>
+		</div>
+        <div class="col-md-3 col-xs-6">
+		<div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/c38r-SAnTWM" frameborder="0" allowfullscreen></iframe></p>
+            <h4>Zootopia</h4>
+            <p class="glyphicon glyphicon-eye-open">345</p>
+		</div>
+		</div>
+         <div class="col-md-3 col-xs-6">
+		 <div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/c38r-SAnTWM" frameborder="0" allowfullscreen></iframe></p>
+            <h4>Zootopia</h4>
+            <p class="glyphicon glyphicon-eye-open">456</p>
+		</div>
+		</div>	  
+    </div>
+	<!--row4-->
+	<div class="row">
+    	 <div class="col-md-3 col-xs-6">
+		  <div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/c38r-SAnTWM" frameborder="0" allowfullscreen></iframe></p>
+            <h4>Zootopia</h4>
+            <p class="glyphicon glyphicon-eye-open">12,333</p>
+		</div>
+		</div>
+           
+        <div class="col-md-3 col-xs-6">
+		<div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/c38r-SAnTWM" frameborder="0" allowfullscreen></iframe></p>
+            <h4>tangle</h4>
+            <p class="glyphicon glyphicon-eye-open">4,455</p>
+		</div>
+		</div>
+        <div class="col-md-3 col-xs-6">
+		<div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/c38r-SAnTWM" frameborder="0" allowfullscreen></iframe></p>
+            <h4>Zootopia</h4>
+            <p class="glyphicon glyphicon-eye-open">345</p>
+		</div>
+		</div>
+         <div class="col-md-3 col-xs-6">
+		 <div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/c38r-SAnTWM" frameborder="0" allowfullscreen></iframe></p>
+            <h4>Zootopia</h4>
+            <p class="glyphicon glyphicon-eye-open">456</p>
+		</div>
+		</div>	  
+    </div>
+	<!--row5-->
+	<div class="row">
+    	 <div class="col-md-3 col-xs-6">
+		  <div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/c38r-SAnTWM" frameborder="0" allowfullscreen></iframe></p>
+            <h4>Zootopia</h4>
+            <p class="glyphicon glyphicon-eye-open">12,333</p>
+		</div>
+		</div>
+           
+        <div class="col-md-3 col-xs-6">
+		<div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/c38r-SAnTWM" frameborder="0" allowfullscreen></iframe></p>
+            <h4>tangle</h4>
+            <p class="glyphicon glyphicon-eye-open">4,455</p>
+		</div>
+		</div>
+        <div class="col-md-3 col-xs-6">
+		<div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/c38r-SAnTWM" frameborder="0" allowfullscreen></iframe></p>
+            <h4>Zootopia</h4>
+            <p class="glyphicon glyphicon-eye-open">345</p>
+		</div>
+		</div>
+         <div class="col-md-3 col-xs-6">
+		 <div class="thumbnail">
+            <p><iframe width="256" height="256" src="https://www.youtube.com/embed/c38r-SAnTWM" frameborder="0" allowfullscreen></iframe></p>
+            <h4>Zootopia</h4>
+            <p class="glyphicon glyphicon-eye-open">456</p>
+		</div>
+		</div>	  
+    </div>
+	<nav>
+		<ul class="pager">
+		<li><a href="#">Previous</a></li>
+		<li><a href="#">Next</a></li>
+		</ul>
+	</nav>
+	<!--row4-->
+	<footer>
+	<div id="footerTop-container">
+	<div id="footerTop">
+		<div>
+			<h3>Cartoon Forum</h3>
+			<ul>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-forum/cartoon-forum-2016/about.htm">
+						About					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-forum/cartoon-forum-2016/attend.htm">
+						Attend					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-forum/cartoon-forum-2016/discover-the-projects-2016-1.htm">
+						Discover the projects					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-forum/cartoon-forum-2016/programme-2016-2.htm">
+						Programme					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-forum/cartoon-forum-2016/projects-accepted.htm">
+						Projects accepted					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-forum/cartoon-forum-2016/lounge-2015.htm">
+						Lounge 2015					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-forum/cartoon-forum-2016/cartoon-forum-tributes.htm">
+						Cartoon Forum Tributes					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-forum/cartoon-forum-2016/photos-and-videos.htm">
+						Photos and videos					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-forum/cartoon-forum-2016/submit-a-project.htm">
+						Submit a project					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-forum/cartoon-forum-2016/press.htm">
+						Press					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-forum/cartoon-forum-2016/archives-1.htm">
+						Archives					</a>
+				</li>
+			</ul>
+				</div>
+
+		<div>
+			<h3>Cartoon Movie</h3>
+			<ul>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-movie-event/cartoon-movie-2016/about-4.htm">
+						About					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-movie-event/cartoon-movie-2016/discover-the-projects-1.htm">
+						Discover the projects					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-movie-event/cartoon-movie-2016/who-is-coming-1.htm">
+						Who is coming					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-movie-event/cartoon-movie-2016/attend-1.htm">
+						Attend					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-movie-event/cartoon-movie-2016/programme-4.htm">
+						Programme					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-movie-event/cartoon-movie-2016/projects-accepted-1.htm">
+						Projects accepted					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-movie-event/cartoon-movie-2016/cartoon-games.htm">
+						Cartoon Games					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-movie-event/cartoon-movie-2016/cartoon-movie-tributes-1.htm">
+						Cartoon Movie Tributes					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-movie-event/cartoon-movie-2016/submit-a-project-1.htm">
+						Submit a project					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-movie-event/cartoon-movie-2016/photos-and-videos-1.htm">
+						Photos and videos					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-movie-event/cartoon-movie-2016/press-1.htm">
+						Press					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-movie-event/cartoon-movie-2016/archives-6.htm">
+						Archives					</a>
+				</li>
+			</ul>
+				</div>
+
+		<div>
+			<h3>Cartoon 360</h3>
+			<ul>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-360/about-cartoon-360.htm">
+						About Cartoon 360					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-360/submit-a-project-2.htm">
+						Submit a project					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-360/register-4.htm">
+						Register					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-360/practical-info-2016-1.htm">
+						Practical info					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-360/host-town-barcelona.htm">
+						Host town: Barcelona					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-360/photos-and-videos-8.htm">
+						Photos and videos					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-360/archives-2014.htm">
+						Archives					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-360/press-12.htm">
+						Press					</a>
+				</li>
+			</ul>
+				</div>
+
+		<div>
+			<h3>Cartoon Connection</h3>
+			<ul>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-connection/connection-canada.htm">
+						Connection CANADA					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-connection/connection-asia.htm">
+						Connection ASIA					</a>
+				</li>
+			</ul>
+				</div>
+
+		<div class="last">
+			<h3>Cartoon Masters</h3>
+			<ul>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-masters/cartoon-business.htm">
+						Cartoon BUSINESS					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-masters/cartoon-digital.htm">
+						Cartoon DIGITAL					</a>
+				</li>
+				<li>
+					<a href="http://www.cartoon-media.eu/cartoon-masters/cartoon-springboard.htm">
+						Cartoon SPRINGBOARD					</a>
+				</li>
+			</ul>
+					<h3>Follow us</h3>
+			<ul class="social">
+				<li><a href="https://www.facebook.com/CARTOON.eu" class="fbk">Facebook</a></li>
+				<li><a href="https://twitter.com/CARTOON_media" class="twt">Twitter</a></li>
+				<li><a href="https://vimeo.com/cartoonmedia" class="vmo">Vimeo</a></li>
+			</ul>
+						<div class="clearfix"></div>
+			<a href="http://www.cartoon-media.eu/about-2/contact.htm" class="button">Contact us</a>
+			
+				</div>
+
+		
+		<div class="clearfix"></div>
+	</div>
+</div>
+	
+	<div id="footerBottom-container">
+		<div id="footerBottom">
+			<p><a href="http://www.dogstudio.be/" target="_blank" class="dog">Dogstudio</a> © 2013 - CARTOON asbl | Av. Huart Hamoir 105 - 1030 Brussels - Belgium | T : +32 2 245 12 00 | F : +32 2 245 46 89  | <a href="mailto:info@cartoon-media.eu">info@cartoon-media.eu</a> </p>
+		</div>
+	</div>
+</footer>
+
+	
+
+	
+		
